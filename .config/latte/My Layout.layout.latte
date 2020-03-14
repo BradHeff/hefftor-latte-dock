@@ -24,17 +24,33 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.latte.plasmoid
 
+[Containments][1][Applets][2][Configuration]
+PreloadWeight=42
+
 [Containments][1][Applets][2][Configuration][General]
 isInLatteDock=true
-launchers59=applications:firefox.desktop,applications:org.kde.dolphin.desktop,applications:gimp.desktop,applications:org.strawberrymusicplayer.strawberry.desktop,applications:vlc.desktop,applications:urxvt.desktop,applications:xfce-settings-manager.desktop
+launchers59=applications:firefox.desktop,applications:org.kde.dolphin.desktop,applications:sublime_text_3.desktop,applications:gimp.desktop,applications:org.strawberrymusicplayer.strawberry.desktop,applications:vlc.desktop,applications:urxvt.desktop,applications:systemsettings.desktop
 
 [Containments][1][Applets][3]
 immutability=1
 plugin=org.kde.plasma.analogclock
 
+[Containments][1][Applets][3][Configuration]
+PreloadWeight=47
+
+[Containments][1][Applets][3][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][1][Applets][3][Configuration][General]
+showSecondHand=true
+
 [Containments][1][ConfigDialog]
 DialogHeight=648
 DialogWidth=539
+
+[Containments][1][Configuration]
+PreloadWeight=42
 
 [Containments][1][General]
 advanced=false
@@ -58,7 +74,7 @@ activities=
 background=
 color=lightskyblue
 disableBordersForMaximizedWindows=false
-lastUsedActivity=
+lastUsedActivity=1fe86127-d67b-4797-816f-87c2194fc798
 launchers=
 preferredForShortcutsTouched=false
 sharedLayout=
