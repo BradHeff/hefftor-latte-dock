@@ -5,6 +5,7 @@ RightButton;NoModifier=org.kde.latte.contextmenu
 activityId=
 byPassWM=false
 dockWindowBehavior=true
+enableKWinEdges=true
 formfactor=2
 immutability=1
 isPreferredForShortcuts=false
@@ -14,6 +15,7 @@ onPrimary=true
 plugin=org.kde.latte.containment
 raiseOnActivityChange=false
 raiseOnDesktopChange=false
+settingsComplexity=4
 timerHide=700
 timerShow=200
 viewType=0
@@ -25,49 +27,37 @@ immutability=1
 plugin=org.kde.latte.plasmoid
 
 [Containments][1][Applets][2][Configuration]
-PreloadWeight=42
+PreloadWeight=10
 
 [Containments][1][Applets][2][Configuration][General]
 isInLatteDock=true
-launchers59=applications:brave-browser.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.kmail2.desktop,applications:sublime_text_3.desktop,applications:ristretto.desktop,applications:org.strawberrymusicplayer.strawberry.desktop,applications:vlc.desktop,applications:org.kde.konsole.desktop,applications:systemsettings.desktop
-
-[Containments][1][Applets][3]
-immutability=1
-plugin=org.kde.plasma.analogclock
-
-[Containments][1][Applets][3][Configuration]
-PreloadWeight=47
-
-[Containments][1][Applets][3][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][1][Applets][3][Configuration][General]
-showSecondHand=true
+launchers59=applications:brave-browser.desktop,applications:thunar.desktop,applications:sublime_text_3.desktop,applications:ristretto.desktop,applications:org.strawberrymusicplayer.strawberry.desktop,applications:vlc.desktop,applications:org.kde.konsole.desktop,applications:systemsettings.desktop
 
 [Containments][1][ConfigDialog]
-DialogHeight=648
-DialogWidth=539
+DialogHeight=914
+DialogWidth=600
 
 [Containments][1][Configuration]
-PreloadWeight=42
+PreloadWeight=10
 
 [Containments][1][General]
 advanced=false
-appletOrder=2;3
+appletOrder=2
+iconSize=42
 panelSize=10
 shadowOpacity=60
 shadowSize=45
 shadows=All
 showGlow=false
-zoomLevel=17
+themeColors=SmartThemeColors
+thickMargin=15
 
 [Containments][1][Indicator]
 customType=
 enabled=true
 enabledForApplets=true
 padding=0.07999999821186066
-type=org.kde.latte.default
+type=org.kde.latte.plasma
 
 [LayoutSettings]
 activities=
